@@ -1,0 +1,8 @@
+# The dependencies for development.
+# Include submodules as editable installs,
+# and install their requirements.txt too.
+# Must de defined.
+# The single dot means to pick up setup.py file
+# and the dependencies defined by it.
+.
+
