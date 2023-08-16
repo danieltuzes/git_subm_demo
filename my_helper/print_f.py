@@ -1,10 +1,13 @@
 """Minimal repo with dependency on numpy."""
 
+import sys
 import numpy
 
-__version__="1.0.4"
+__version__="1.0.5"
 
 def my_print_f():
-    """Prints versions."""
-    print("You have my_helper version", __version__)
-    print("You have numpy version", numpy.__version__)
+    """Print diagnostics."""
+    print(f"My helper's print file is at {__file__}, version {__version__}")
+    print(f"numpy version {numpy.__version__}")
+    print(f"sys.argv = {sys.argv}")
+    print(f"sys.path = {sys.path}")
