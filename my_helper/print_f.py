@@ -3,7 +3,7 @@
 import sys
 import pandas
 
-__version__ = "1.0.6"
+from my_helper import __version__
 
 
 def my_print_f():
